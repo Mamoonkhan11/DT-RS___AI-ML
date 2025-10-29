@@ -1,0 +1,27 @@
+1. How does a decision tree work?
+It splits data into branches based on feature values to create decision rules that lead to predicted outcomes at leaf nodes.
+
+2. What is entropy and information gain?
+Entropy measures disorder or impurity in data.
+Information gain measures how much entropy decreases after a split — higher gain means a better split.
+
+3. How is random forest better than a single tree?
+It builds multiple decision trees on random subsets of data and features, then averages their results — reducing overfitting and improving accuracy.
+
+4. What is overfitting and how do you prevent it?
+Overfitting happens when the model memorizes training data.
+Prevent it by pruning trees, using max depth limits, or applying ensemble methods like Random Forest.
+
+5. What is bagging?
+Short for Bootstrap Aggregating — it trains multiple models on random subsets of data and combines their predictions to reduce variance.
+
+6. How do you visualize a decision tree?
+Use tools like graphviz, sklearn.tree.plot_tree(), or export_graphviz() to plot the structure of the tree.
+
+7. How do you interpret feature importance?
+It shows how much each feature contributes to reducing impurity (entropy or Gini). Higher scores mean stronger influence on predictions.
+
+8. What are the pros/cons of random forests?
+High accuracy, robust to noise, handles overfitting well.
+Slower prediction, less interpretable, larger memory usage.
+
