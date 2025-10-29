@@ -32,7 +32,7 @@ The dataset contains 13 clinical features used to predict the presence of heart 
 ## Folder Structure
 
 ```
-Task5_TreesRF/
+DT-RS___AI-ML/
 │
 ├── Data/
 │   └── data.csv                    
