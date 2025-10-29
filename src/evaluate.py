@@ -5,7 +5,7 @@ import seaborn as sns
 from sklearn.metrics import confusion_matrix, classification_report, roc_auc_score, roc_curve
 from sklearn.model_selection import cross_val_score
 
-def Evaluate_model(model, X_test, y_test, outputs_prefix="outputs/model"):
+def Evaluate_model(model, X_test, y_test, outputs_prefix="Outputs/model"):
     y_pred = model.predict(X_test)
     try:
         y_proba = model.predict_proba(X_test)[:,1]
