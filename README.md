@@ -34,7 +34,7 @@ The dataset contains 13 clinical features used to predict the presence of heart 
 ```
 Task5_TreesRF/
 │
-├── data/
+├── Data/
 │   └── data.csv                    
 │
 ├── notebooks/
