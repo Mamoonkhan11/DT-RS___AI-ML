@@ -132,10 +132,6 @@ python main.py
 
 ![Decision Tree](Outputs/decision_tree.png)
 
-**Random Forest Feature Importance:**
-
-![Feature Importances](Outputs/rf_feature_importances.png)
-
 **Confusion Matrix (Decision Tree):**
 
 ![Confusion Matrix - DT](Outputs/decision_tree_confusion_matrix.png)
